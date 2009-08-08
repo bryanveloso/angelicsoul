@@ -2,7 +2,7 @@
 Theme Name: AngelicSoul
 Theme URI: http://labs.revyver.com/
 Description: A light 2 column theme based off of a certain designer's old website. 
-Version: 1.0
+Version: 1.1
 Author: Bryan Veloso
 Author URI: http://avalonstar.com/
 Tags: fixed width, widgets, widget ready, valid XHTML, valid CSS, clean, light, minimal, blue, right sidebar, custom header
@@ -29,7 +29,7 @@ body {
     width: 758px;
     }
     
-a:link, a:visited, a:active { color: #333; text-decoration: none; }
+a:link, a:visited, a:active { color: #27282c; text-decoration: none; }
 a:hover { color: #426cb0; text-decoration: none; }
 
 a img { border: 0; }
