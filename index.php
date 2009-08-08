@@ -7,12 +7,12 @@
 		
 			<div class="post lastfive" id="post-<?php the_ID(); ?>">
 				<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>"><?php the_title(); ?></a></h2>
-				<span class="postmetadata">&nbsp;<?php the_time(get_option("date_format")); ?> &bull; <?php comments_popup_link(__('No Comments', 'chaoticsoul'), __('1 Comment', 'chaoticsoul'), __('% Comments', 'chaoticsoul')); ?> <?php edit_post_link(__('Edit', 'chaoticsoul'), '(', ')'); ?></span>
+				<span class="postmetadata">&nbsp;<?php the_time(get_option("date_format")); ?> &bull; <?php comments_popup_link(__('No Comments', 'angelicsoul'), __('1 Comment', 'angelicsoul'), __('% Comments', 'angelicsoul')); ?> <?php edit_post_link(__('Edit', 'angelicsoul'), '(', ')'); ?></span>
 				
 				<div class="entry">
 					<?php the_content("<span class=\"continue\">" . __('Continue reading','') . " '" . the_title('', '', false) . "'</span>"); ?>
 					<p class="postmetadata">
-						<?php printf(__('Posted in %s', 'chaoticsoul'), get_the_category_list(', ')); ?>
+						<?php printf(__('Posted in %s', 'angelicsoul'), get_the_category_list(', ')); ?>
 						<?php the_tags('<br />' .  __( 'Tags' ) . ': ', ', ', '');  ?>
 					</p>
 				</div>
@@ -22,8 +22,8 @@
 		
 	<?php else : ?>
 		
-		<h2 class="center"><?php _e('Not Found', 'chaoticsoul'); ?></h2>
-		<p class="center"><?php _e('Sorry, but you are looking for something that isn&#8217;t here.', 'chaoticsoul'); ?></p>
+		<h2 class="center"><?php _e('Not Found', 'angelicsoul'); ?></h2>
+		<p class="center"><?php _e('Sorry, but you are looking for something that isn&#8217;t here.', 'angelicsoul'); ?></p>
 		<?php include (TEMPLATEPATH . "/searchform.php"); ?>
 		
 	<?php endif; ?>

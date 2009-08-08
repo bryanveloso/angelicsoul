@@ -5,12 +5,12 @@
 		<div <?php post_class('post'); ?> id="post-<?php the_ID(); ?>">
 		<h2 class="title"><?php the_title(); ?></h2>
             <div class="entrytext">
-				<?php the_content('<p class="serif">'.__('Read the rest of this page &raquo;', 'chaoticsoul').'</p>'); ?>
-				<?php link_pages('<p><strong>'.__('Pages:', 'chaoticsoul').'</strong> ', '</p>', 'number'); ?>
+				<?php the_content('<p class="serif">'.__('Read the rest of this page &raquo;', 'angelicsoul').'</p>'); ?>
+				<?php link_pages('<p><strong>'.__('Pages:', 'angelicsoul').'</strong> ', '</p>', 'number'); ?>
             </div>
         </div>
     <?php endwhile; endif; ?>
-	<?php edit_post_link(__('Edit this entry.', 'chaoticsoul'), '<p>', '</p>'); ?>
+	<?php edit_post_link(__('Edit this entry.', 'angelicsoul'), '<p>', '</p>'); ?>
     
     <?php if ( comments_open() ) comments_template(); ?>
     </div>
